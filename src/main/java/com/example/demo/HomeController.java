@@ -14,4 +14,14 @@ public class HomeController {
     public String menu() {
         return "Menu"; // This should match the name of your HTML file in the templates directory
     }
+
+    @GetMapping("/events")
+    public String events() {
+        return "Events"; // This should match the name of your HTML file in the templates directory
+    }
+
+    @GetMapping("/account")
+    public String account() {
+        return "Account"; // This should match the name of your HTML file in the templates directory
+    }
 }

@@ -66,3 +66,18 @@ button:hover {
     font-size: 14px;
     text-align: center;
 }
+
+.signup-btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--color-smoky-gray);
+    color: var(--color-bone-white);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.signup-btn:hover {
+    background: var(--color-charwood-brown);
+}

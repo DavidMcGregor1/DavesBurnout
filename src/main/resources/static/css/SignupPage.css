@@ -67,7 +67,7 @@ button:hover {
     text-align: center;
 }
 
-.signup-btn {
+.login-btn {
     display: block;
     text-align: center;
     margin-top: 10px;
@@ -78,6 +78,7 @@ button:hover {
     border-radius: 4px;
     font-size: 14px;
 }
-.signup-btn:hover {
+.login-btn:hover {
     background: var(--color-charwood-brown);
+}
 }

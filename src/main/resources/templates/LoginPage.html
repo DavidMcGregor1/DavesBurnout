@@ -18,8 +18,9 @@
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter password" required>
         </div>
-        <div th:if="${error}" class="error">[[${error}]]</div>
         <button type="submit">Login</button>
+        <a th:href="@{/signup}" class="signup-btn">Sign Up</a>
+        <div th:if="${error}" class="error">[[${error}]]</div>
     </form>
 </div>
 </body>

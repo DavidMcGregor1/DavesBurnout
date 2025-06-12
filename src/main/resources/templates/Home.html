@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave's Burnout</title>
+    <link rel="stylesheet" th:href="@{/css/LoginPage.css}">
+    <link rel="stylesheet" th:href="@{/css/HomePage.css}">
+    <script th:src="@{/js/countdown.js}" defer></script>
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a th:href="@{/home}">Home</a></li>
+        <li><a th:href="@{/menu}">Menu</a></li>
+        <li><a th:href="@{/events}">Events</a></li>
+        <li><a th:href="@{/account}">Account</a></li>
+    </ul>
+</nav>
+<div class="main-content">
+    <h1>Next BBQ Countdown</h1>
+    <div id="countdown" class="countdown"></div>
+    <a th:href="@{/rsvp}" class="btn btn-primary">RSVP</a>
+</div>
+</body>
+</html>
